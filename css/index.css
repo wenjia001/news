@@ -1,0 +1,257 @@
+html {
+  font-size: 100px;
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+}
+.mainBox{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.loadingBox{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.head{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 20%;
+}
+.logo{
+  width: 1.79rem;
+    height: 1.5rem;
+    display: inherit;
+    margin:0 auto;
+}
+.progress {
+  position: relative;
+    width: 3.9rem;
+    height: .16rem;
+    background: #989897;
+    border-radius: 0.08rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:.42rem;
+  }
+.run {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: .16rem;
+    border-radius: 0.08rem;
+    transition: .3s;
+    background: #fff;
+  }
+.progress p{
+  font-size: .26rem;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-top: .3rem;
+}
+.loadingBox .bottom{
+  position: absolute;
+    bottom: 10%;
+    color: #fff;
+    width: 100%;
+    display: flex;
+}
+.loadingBox .bottom .box{
+  margin-left: auto; margin-right: auto;
+}
+
+.loadingBox .bottom .box .right{
+  width: .40rem;
+  height: .40rem;
+  float: left;
+  padding-right: .1rem;
+}
+.loadingBox .bottom .box .left{
+  overflow: hidden;
+}
+.loadingBox .bottom .box .left h1{
+  font-size: .24rem;
+  line-height: .24rem;
+}
+.loadingBox .bottom .box .left h2{
+  font-size: .18rem;
+  line-height: .18rem;
+}
+
+/*content*/
+.red{
+  background: #e84c2b;
+}
+.purple{
+  background: #b3379b;
+}
+.content{
+  background: url(../img/contentBg.jpg) no-repeat;
+  background-size: 100%;
+  min-height: 100%;
+  display: none;
+}
+.content h2{
+  color: #fff;
+  font-size: .3rem;
+  height: 1.24rem;
+  line-height: 1.24rem;
+  padding-left: .19rem;
+}
+.swiper-container {
+        width: 100%;
+        overflow:hidden;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 33.33%;
+}
+.swiper-slide img{
+  width: 100%;
+  display: block;
+}
+.swiper-slide img.play{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.28rem;
+  height: 1.28rem;
+  margin-top: -.7rem;
+  margin-left: -.64rem;
+  display: none;
+}
+.swiper-slide-active img.play{
+  display: block;
+}
+.swiper-slide .text{
+  height: .65rem;
+  box-sizing:border-box;
+  width: 100%;
+  color: #fff;
+  position: relative;
+  padding-left: .1rem;
+  padding-top: .07rem;
+}
+.swiper-slide .text .right{
+  position: relative;
+}
+.swiper-slide .text .right .top{
+  font-size: .14rem;
+}
+.swiper-slide .text .right .bottom{
+  font-size: .23rem;
+  /*line-height: .23rem;*/
+}
+.swiper-slide .text .left{
+  font-size: .15rem;   
+  transform:rotate(90deg);  
+    -ms-transform:rotate(90deg);    /* IE 9 */  
+    -moz-transform:rotate(90deg);   /* Firefox */  
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */  
+    -o-transform:rotate(90deg);     /* Opera */ 
+    height: .65rem;
+    position: absolute;
+    top: 0;
+    right: 0.2rem;
+}
+.gallery-thumbs .swiper-slide {
+    width: 100%;
+}
+.gallery-thumbs .swiper-slide .title{
+  color: #fff;
+  font-size: .32rem;
+  text-align: center;
+  padding-top:.35rem;
+}
+.gallery-thumbs .swiper-slide .des{
+  color: #fff;
+  font-size: .24rem;
+  text-align: center;
+  padding-top: .15rem;
+}
+.gallery-thumbs .swiper-slide .details{
+  background: #6a6e70;
+  width: 100%;
+  box-sizing:border-box;
+  padding:.2rem;
+  color: #161616;
+  margin-top: .48rem;
+}
+.gallery-thumbs .swiper-slide .details .top{
+  font-size: .26rem;
+}
+.gallery-thumbs .swiper-slide .details .top p{
+  float: left;
+  padding-right: .64rem;
+}
+.gallery-thumbs .swiper-slide .details .top p.right{
+  padding-right: 0;
+}
+.gallery-thumbs .swiper-slide .details .bottom{
+  padding-top: .25rem;
+}
+.gallery-thumbs .swiper-slide .details .bottom .person{
+  font-size: .26rem;
+  float: left;
+  padding-right: .13rem;
+  padding-top: .25rem;
+}
+.gallery-thumbs .swiper-slide .details .bottom .photo{
+  font-size: .26rem;
+  float: left;
+  text-align: center;
+  padding-right: .15rem;
+
+}
+.gallery-thumbs .swiper-slide .details .bottom .photo span{
+  font-size: .20rem;
+}
+.gallery-thumbs .swiper-slide .details .bottom .photo img{
+  width: .88rem;
+  height: .88rem;
+}
+.gallery-thumbs .swiper-slide .introduce{
+  color: #fff;
+  padding:.7rem .2rem 0.35rem;
+  font-size: .3rem;
+}
+.gallery-thumbs .swiper-slide .instroduceCon{
+  color: #fff;
+  padding:0 .2rem .4rem;
+  font-size: .26rem;
+  line-height: .44rem;
+  text-align:justify;
+}
+
+.mask{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+.video{
+  position: fixed;
+  top:15%;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: none;
+}
+
+
+

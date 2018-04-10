@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!--REM-->
+    <script>
+        ~function () {
+            let computed = function () {
+                let desW = 750;
+                let devW = document.documentElement.clientWidth;
+                if (devW >= 750) {
+                    document.documentElement.style.fontSize = '100px';
+                    return;
+                }
+                document.documentElement.style.fontSize = devW / desW * 100 + 'px';
+            };
+            computed();
+            window.addEventListener('resize', computed, false);
+        }();
+    </script>
+</head>
+<body>
+    <main class="mainBox">
+        <!--LOADING-->
+        <section class="loadingBox">
+            <div class="head">
+                <img src="img/logo.png" class="logo">
+                <div class="progress">
+                    <div class="run"></div>
+                    <p class="text">0%</p>
+                </div>
+            </div>
+            <div class="bottom clearfix">
+                <div class="box">
+                    <img src="img/pic.png" class="right">
+                    <div class="left">
+                        <h1>国务院客户端</h1>
+                        <h2>www.gov.cn</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--content-->
+        <section class="content">
+            <h2>最新放映</h2>
+            <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/1.jpg">
+                        <div class="text purple">
+                            <div class="right">
+                                <p class="top">克强总理的</p>
+                                <p class="bottom">“哈瓦那时刻”</p>
+                            </div>
+                            <div class="left">2016</div>
+                        </div>
+                        <img src="img/play.png" class="play">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/1.jpg">
+                        <div class="text red">
+                            <div class="right">
+                                <p class="top">克强总理的</p>
+                                <p class="bottom">“哈瓦那时刻”</p>
+                            </div>
+                            <div class="left">2016</div>
+                        </div>
+                        <img src="img/play.png" class="play">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/1.jpg">
+                        <div class="text purple">
+                            <div class="right">
+                                <p class="top">克强总理的</p>
+                                <p class="bottom">“哈瓦那时刻”</p>
+                            </div>
+                            <div class="left">2016</div>
+                        </div>
+                        <img src="img/play.png" class="play">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-container gallery-thumbs swiper-no-swiping">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p class="title">《克强总理的联合国时间11》</p>
+                        <p class="des">总理的联合国“首秀”，联合国变“中国主场”</p>
+                        <div class="details">
+                            <div class="top clearfix">
+                                <p class="left">出品：国务院客户端</p>
+                                <p class="mid">地点：联合国</p>
+                                <p class="right">年份:2016年</p>
+                            </div>
+                            <div class="bottom clearfix">
+                                <p class="person">人物：</p>
+                                <p class="photo">
+                                    <img src="img/1.png">
+                                    <span>李克强</span>
+                                </p>
+                                <p class="photo">
+                                    <img src="img/2.png">
+                                    <span>潘基文</span>
+                                </p>
+                                <p class="photo">
+                                    <img src="img/3.png">
+                                    <span>奥巴马</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="introduce">简介：</div>
+                        <div class="instroduceCon">
+                            总理美洲之行第一站纽约。当地时间9月18日至9月21日，
+四天时间里，李克强出席第71节联合国大会系列高级别会议总理美洲之行第一站纽约。当地时间9月18日至9月21日，
+四天时间里，李克强出席第71节联合国大会系列高级别会议
+                        </div>
+                    </div>
+                    <div class="swiper-slide" videoSrc="movie/2.mkv">
+                        <p class="title">《克强总理的联合国时间22》</p>
+                        <p class="des">总理的联合国“首秀”，联合国变“中国主场”</p>
+                        <div class="details">
+                            <div class="top clearfix">
+                                <p class="left">出品：国务院客户端</p>
+                                <p class="mid">地点：联合国</p>
+                                <p class="right">年份:2016年</p>
+                            </div>
+                            <div class="bottom clearfix">
+                                <p class="person">人物：</p>
+                                <p class="photo">
+                                    <img src="img/1.png">
+                                    <span>李克强</span>
+                                </p>
+                                <p class="photo">
+                                    <img src="img/2.png">
+                                    <span>潘基文</span>
+                                </p>
+                                <p class="photo">
+                                    <img src="img/3.png">
+                                    <span>奥巴马</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="introduce">简介：</div>
+                        <div class="instroduceCon">
+                            总理美洲之行第一站纽约。当地时间9月18日至9月21日，
+四天时间里，李克强出席第71节联合国大会系列高级别会议总理美洲之行第一站纽约。当地时间9月18日至9月21日，
+四天时间里，李克强出席第71节联合国大会系列高级别会议
+                        </div>
+                    </div>
+                    <div class="swiper-slide" videoSrc="movie/3.mkv">
+                        <p class="title">《克强总理的联合国时间33》</p>
+                        <p class="des">总理的联合国“首秀”，联合国变“中国主场”</p>
+                        <div class="details">
+                            <div class="top clearfix">
+                                <p class="left">出品：国务院客户端</p>
+                                <p class="mid">地点：联合国</p>
+                                <p class="right">年份:2016年</p>
+                            </div>
+                            <div class="bottom clearfix">
+                                <p class="person">人物：</p>
+                                <p class="photo">
+                                    <img src="img/1.png">
+                                    <span>李克强</span>
+                                </p>
+                                <p class="photo">
+                                    <img src="img/2.png">
+                                    <span>潘基文</span>
+                                </p>
+                                <p class="photo">
+                                    <img src="img/3.png">
+                                    <span>奥巴马</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="introduce">简介：</div>
+                        <div class="instroduceCon">
+                            总理美洲之行第一站纽约。当地时间9月18日至9月21日，
+四天时间里，李克强出席第71节联合国大会系列高级别会议总理美洲之行第一站纽约。当地时间9月18日至9月21日，
+四天时间里，李克强出席第71节联合国大会系列高级别会议
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mask"></div>
+            <video src="" autoplay controls class="video"></video>
+        </section>
+    </main>
+</body>
+<script src="js/zepto.min.js"></script>
+<script src="js/html5media.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="./js/index.js"></script>
+</html>
