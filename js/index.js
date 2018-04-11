@@ -44,7 +44,7 @@ let contentBox = (function ($) {
         $mask = $(".mask"),
         $mainBox = $(".mainBox"),
         $content = $(".content");
-    let videoList = ["movie/1.mp4","movie/2.mkv","movie/3.mkv"];
+    let videoList = ["movie/1.mp4","movie/2.mp4","movie/3.mp4"];
     $swiperSlide.each((index)=>{
         $swiperSlide.eq(index).click(()=>{
             if($swiperSlide.eq(index).hasClass('swiper-slide-active')){
